@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+.green{
+    background-color: #4CAF4F;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: #4CAF4F;
+}
+.sub{
+    color: #4CAF4F;
+}
+.para{
+    font-size: 13px;
+    font-weight: 500;
+}
+h2{
+    font-size: 40px;
+    line-height: 60px;
+    color: #455A64;
+    font-weight: 600;
+}
+h4{
+    font-weight: 500;
+    line-height: 25px;
+}
+h4 > .sub{
+    font-weight: 600;
+}
+h4 > .para{
+    font-weight: 500;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 84px;
+    align-items: center;
+    background-color: #E5F1FB;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #263238;
+    font-weight: 700;
+    font-size: 20px;
+}
+.head > ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+}
+.head > ul > li{
+    gap: 20px;
+}
+.sign{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+/* body */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/* main */
+main{
+
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5F1FB;
+}
+/* main..... home...... con1 */
+.home{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.con1{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+    /* gap: 60px; */
+    line-height: 40px;
+}
+
+/* home1 */
+.home1{
+    margin-top: 20px;
+    text-align: center;
+}
+/* icons1 */
+.icons1 > img{
+    margin: 40px 60px;
+    /* margin-top: 30px; */
+    /* gap: 50px; */
+}
+/* home2 */
+.home2{
+    margin-top: 20px;
+    text-align: center;
+}
+/* con2 */
+.con2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: #263238; */
+    /* box-shadow: 2px 2px 10px solid black; */
+}
+.icon{
+    position: absolute;
+    z-index: 10;
+    /* height: 25px; */
+    /* width: 35px; */
+}
+.shadow{
+    position: relative;
+    left: 20px;
+    height: 40px;
+    z-index: -1000;
+    top: 0px;
+}
+.con{
+    text-align: center;
+    width: 25%;
+    padding:3% 5%;
+    box-shadow: 2px 2px 10px rgb(207, 207, 207);
+    border-radius: 5px;
+}
+/* body1 */
+.body1{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+}
+/* body2 */
+.body2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5F1FB;
+    padding: 20px 0;
+}
+.body2 > h3{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left:200px;
+    text-align: start;
+}
+.con4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.con5{
+    margin:10px 40px;
+    width: 200px;
+}
+/* body3 */
+.body3{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+}
+/* body4 */
+.body4{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5F1FB;
+}
+.body4 > .content{
+    width: 60%;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+}
+.icon2 > h4{
+    font-size: 15px;
+}
+/* body5 */
+.body5{
+    margin: 30px 0px;
+    width: 550px;
+    text-align: center;
+}
+/* body6 */
+.body6{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.con7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con7 > img{
+    height: 200px;
+    width: 320px;
+    
+}
+.con8{
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    background-color: #E5F1FB;
+    position: relative;
+    top: -40px;
+    border-radius: 5px;
+}
+/* body7 */
+.body7{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 400px;
+    background-color: #E5F1FB;
+}
+.body7 > button{
+    margin-top: 30px;
+}
+/* footer */
+footer{
+    width: 100%;
+    background-color: #263238;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 50px 0;
+}
+.left{
+    float: left;
+    color: white;
+    font-weight: 500;
+    align-items: start;
+    display: block;
+    justify-content: center;
+}
+.right{
+    float: right;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: start;
+}
+.links > h3{
+    margin-bottom: 20px;
+}
+
+.links > h6{
+    margin-bottom: 8px;
+}
+.logo1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h6{
+    font-weight: 500;
+    font-size: 15px;
+}
+.social{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.email{
+    display: flex;
+    width: 250px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #515B60;
+    justify-content: space-between;
+}
+.email > h6{
+    color: white;
+}
